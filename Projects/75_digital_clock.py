@@ -19,7 +19,7 @@ class DigitalClock(QWidget):
         vbox.addWidget(self.time_label)
         self.setLayout(vbox)
 
-        font_path = "/home/shathwik1/Desktop/Python Tutorial/Projects/DS-DIGIT.TTF"
+        font_path = "DS-DIGIT.TTF"
         font_id = QFontDatabase.addApplicationFont(font_path)
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
 
