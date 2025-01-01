@@ -54,7 +54,7 @@ def main():
     while is_running:
         display_man(wrong_guesses)
         display_hint(hint)
-        guess = input("Enter a letter: ").lower()
+        guess = input("\nEnter a letter: ").lower()
 
         if len(guess) != 1 and not guess.isalpha():
             print("Invalid input")
